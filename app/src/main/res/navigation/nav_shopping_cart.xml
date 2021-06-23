@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_shopping_cart"
+    app:startDestination="@id/allMoviesFragment">
+
+    <fragment
+        android:id="@+id/allMoviesFragment"
+        android:name="com.lupesoft.mvppattern.presenter.fragments.AllMoviesFragment"
+        android:label="@string/all_movies">
+        <action
+            android:id="@+id/action_allMoviesFragment_to_aboutOfMovieFragment"
+            app:destination="@id/aboutOfMovieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutOfMovieFragment"
+        android:name="com.lupesoft.mvppattern.presenter.fragments.AboutOfMovieFragment"
+        android:label="AboutOfMovieFragment" />
+    <fragment
+        android:id="@+id/shoppingCartFragment"
+        android:name="com.lupesoft.mvppattern.presenter.fragments.ShoppingCartFragment"
+        android:label="@string/shopping_car">
+        <action
+            android:id="@+id/action_shoppingCartFragment_to_aboutOfMovieFragment"
+            app:destination="@id/aboutOfMovieFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,24 @@
+<resources>
+    //validate
+    <string name="alpha_numeric" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="numeric" translatable="false">0123456789</string>
+
+    <string name="app_name">Shopping Center</string>
+    <string name="decline">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="info">Info.</string>
+    <string name="movie_is_already">The movie is already in the cart.</string>
+    <string name="add_successfully">I add movie successfully.</string>
+    <string name="remove_successfully">I remove movie successfully.</string>
+    <string name="remove_all_successfully">Remove all movies successfully.</string>
+    <string name="something_unexpected_happened">Oh oh something unexpected happened!</string>
+    <string name="list_is_empty">List is empty</string>
+    <string name="popularity"><![CDATA[<b>Popularity:</b>]]> %1$s</string>
+    <string name="overview"><![CDATA[<b>Overview:</b>]]> %1$s</string>
+    <string name="all_movies">All movies</string>
+    <string name="shopping_car">Shopping car</string>
+    <string name="add_movie">Add movie</string>
+    <string name="remove_movie">Remove movie</string>
+    <string name="remove_all_movies">Remove all movies</string>
+    <string name="about_of_movie">About of movie</string>
+</resources>

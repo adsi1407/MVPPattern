@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_movie_detail"
+        android:icon="@drawable/ic_add_shopping_cart"
+        android:title="@string/add_movie" />
+    <item
+        android:id="@+id/delete_movie_detail"
+        android:icon="@drawable/ic_preview"
+        android:title="@string/remove_movie" />
+</menu>

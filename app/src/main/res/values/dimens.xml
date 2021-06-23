@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Margins-->
+    <dimen name="card_elevation">3dp</dimen>
+    <dimen name="margin_extra_small">4dp</dimen>
+    <dimen name="card_bottom_margin">5dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="card_side_margin">12dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="header_margin">24dp</dimen>
+    <dimen name="gallery_header_margin">72dp</dimen>
+
+    <!--Padding-->
+    <dimen name="fab_bottom_padding">72dp</dimen>
+
+    <!--Sizes-->
+    <dimen name="user_detail_app_bar_height">278dp</dimen>
+    <dimen name="plant_item_image_height">95dp</dimen>
+    <dimen name="toolbar_elevation">5dp</dimen>
+    <dimen name="text_height">40dp</dimen>
+    <dimen name="user_description_min_height">555dp</dimen>
+
+    <!--SizeImages-->
+    <dimen name="imageWidth">80dp</dimen>
+    <dimen name="imageHeight">90dp</dimen>
+    <dimen name="imageDetailWidth">200dp</dimen>
+    <dimen name="imageDetailHeight">300dp</dimen>
+
+</resources>
